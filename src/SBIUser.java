@@ -14,6 +14,7 @@ public class SBIUser implements BankInterface{
 
         this.roi=6.5;
         this.accountNumber= String.valueOf(UUID.randomUUID());
+        System.out.println("Account created with Account Number : "+this.accountNumber);
     }
 
     public String getName() {
